@@ -71,6 +71,7 @@ body {
     background-color: bisque;
     padding: 20px 50px;
     position: fixed;
+    width: 100%;
 }
 
 .brand {
@@ -103,6 +104,9 @@ a {
     padding: 20px;
 }
 
+.first-section {
+    padding-top: 80px;
+}
 .col {
     margin: 1.5%;
     padding: 0 auto;
@@ -150,6 +154,7 @@ p {
 }
 
 .btn {
+    display: inline-block;
     background-color: black;
     color: white;
     border-radius: 8px;
