@@ -1,0 +1,267 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+header {
+    background-color: #5385C1;
+    padding: 90px;
+}
+
+.brand {
+    float: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    float: right;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.nav{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 16px;
+    font-size: 12px;
+}
+
+.intro {
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+h2 {
+    font-size: 44px;
+    color: white;
+}
+
+h4 {
+    font-size: 14px;
+    color:  rgb(202, 202, 202);
+}
+
+.first-section {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+
+h3 {
+    color:  #5385C1;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+}
+
+p {
+    color: black;
+    font-size: 17px;
+    padding: 30px 0;
+}
+
+.btn {
+    background-color: #5385C1;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.col {
+    margin: 1.5%;
+    padding: 0 25px;
+    float: left;
+}
+
+.col-1, .col-2, .col-3 {
+    width: 30%;
+}
+
+/* Team section */
+
+.team {
+    background-color: #5385C1;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.team-intro {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.tcol {
+    margin: 1%;
+    padding: 30px 30px;
+    float: left;
+    border: 1px solid rgb(202, 202, 202);
+    text-align: center;
+}
+
+.tcol-1, .tcol-2, .tcol-3, .tcol-4 {
+    width: 23%;
+}
+
+.team-img {
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: white;
+}
+
+/* Blog Section */
+
+.blog {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.bcol {
+    margin: 1.5%;
+    padding: 0 auto;
+}
+
+.bcol-1, .bcol-2 {
+    width: 47%;
+}
+
+.bcol-1 {
+    float: left;
+}
+
+.bcol-2 {
+    float: right;
+}
+
+.blog-img {
+    width: 100%;
+    height: 180px;
+}
+
+.blog-intro {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+#blog-header {
+    font-size: 44px;
+    color: #5385C1;
+}
+
+hr {
+    color: #858585;
+}
+
+/* Footer Section */
+
+.fcol {
+    margin: 1.5%;
+    padding: 0 auto;
+}
+
+.fcol-1 {
+    width: 80%;
+    float: left;
+}
+
+.fcol-2 {
+    width: 14%;
+    float: right;
+}
+
+.fnav {
+    color: #5385C1;
+    padding-left: 10px;
+}
+
+.small {
+    color: rgb(202, 202, 202);
+    font-size: 10px;
+}
